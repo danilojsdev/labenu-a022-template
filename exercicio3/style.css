@@ -1,0 +1,26 @@
+button:hover {
+    background-color: red;
+    color: white;
+    width: 15vw;
+    height: 10vh;
+}
+
+button:active {
+    opacity: 0.2;
+    /* background-color: blueviolet; */
+    color: greenyellow;
+}
+
+body {
+    text-align: center;
+}
+
+div {
+    background-color: brown;
+    width: 40vw;
+    margin: 0 auto;
+}
+
+section:nth-child(1) {
+    color: red;
+}

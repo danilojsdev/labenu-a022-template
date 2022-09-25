@@ -11,11 +11,21 @@
     padding: 20px;
     color: #abd1c6;
   }
+
+  nav{
+    padding: 20px;
+    background-color: white;
+    position: sticky;
+    top: 0px;
+    z-index: 1; /*altera a ordem da sobreposição*/
+}
+
   main{
     height: 1200px;
     padding: 20px;
     background-color: #e8e4e6;
     margin: 10px;
+    position: relative;
   }
   
   section{
@@ -24,14 +34,34 @@
     background-color: white;
     padding: 20px;
     margin: 10px 0;
+}
+
+  section:nth-child(1) {
+    background-color: aqua;
+    position: absolute;
+    bottom: 10px;
+    right: 20px;
   }
-  
-  nav{
-    padding: 20px;
-    background-color: white;
+
+  section:nth-child(2) {
+    background-color: burlywood;
+    text-align: center;
   }
-  
+
+  section:nth-child(3) {
+    background-color: rgb(201, 201, 201);
+  }
+ 
+  button:active{
+    background-color: green;
+  }
+
   footer{
     background-color: #abd1c6;
     padding: 20px;
+    text-align: center;
+  }
+
+  footer:hover {
+    background-color: yellow;
   }
